@@ -1,6 +1,6 @@
 // this library is public domain. enjoy!
 // based on www.ladyada.net/learn/sensors/thermocouple
-// modified for the particle.io libary by Mike Seiler, MSEE
+// modified for the particle.io libary by Mike Seiler, MSEE 
 #define NAN 999999
 #include <stdlib.h>
 #include "max6675.h"

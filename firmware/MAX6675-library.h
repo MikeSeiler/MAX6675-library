@@ -1,6 +1,6 @@
 // this library is public domain. enjoy!
 // www.ladyada.net/learn/sensors/thermocouple
-// modified for the particle.io libary by Mike Seiler, MSEE
+// modified for the particle.io libary by Mike Seiler, MSEE 
 
 class MAX6675 {
  public:

@@ -4,8 +4,7 @@
 
 class MAX6675 {
  public:
-//  MAX6675(int8_t SCLK, int8_t CS, int8_t MISO);
-  MAX6675(int8_t SCLK, int8_t CS);
+  MAX6675(int8_t SCLK, int8_t CS);  // miso defaults to hardware pin
 
   double readCelsius(void);
   double readFahrenheit(void);

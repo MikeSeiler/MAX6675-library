@@ -5,12 +5,11 @@
 #include <stdlib.h>
 #include "max6675.h"
 
-//MAX6675::MAX6675(int8_t SCLK, int8_t CS, int8_t MISO) {
 MAX6675::MAX6675(int8_t SCLK, int8_t CS) {
   // photon pins - A5 (MOSI) A4 (MISO) A3 (SCK)
   sclk = SCLK;
   cs = CS;
-  miso = A4; //miso = MISO;
+  miso = A4; // hardware pin
 
   //define pin modes
   pinMode(cs, OUTPUT);
